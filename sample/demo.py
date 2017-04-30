@@ -1,19 +1,20 @@
 # -*- coding:utf-8 -*-
 import requests
-import re
-from lxml import etree
-url = "https://www.cau.edu.cn/"
-html = requests.get(url)
-print html.content
+import demo2
 
-# urls = re.findall("<a href=\"(.*?)\">", html.content, re.S)
-# urlsStr = ""
-# for each in urls:
-#     urlsStr = urlsStr + each + "\r\n"
-# print urlsStr
+if __name__ == "__main__":
+    url = "https://www.cau.edu.cn/"
+    html = requests.get(url)
+    # print html.content
+    demo2.get_info_by_regular(html)
+    print __file__
+    print ""
+#    get_info_by_regular()
 
-selector = etree.HTML(html.content)
-selector.XPath()
+
+
+
+
 
 
 
