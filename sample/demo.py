@@ -12,6 +12,7 @@ if __name__ == "__main__":
     print "su hao"
     print "little bug"
 #    get_info_by_regular()
+    print "finish feature"
 
 
 
