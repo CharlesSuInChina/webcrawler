@@ -10,6 +10,7 @@ if __name__ == "__main__":
     print __file__
     print ""
     print "su hao"
+    print "little bug"
 #    get_info_by_regular()
 
 
