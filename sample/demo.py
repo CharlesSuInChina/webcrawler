@@ -11,6 +11,7 @@ if __name__ == "__main__":
     print ""
     print "su hao"
 #    get_info_by_regular()
+    print "finish feature"
 
 
 
