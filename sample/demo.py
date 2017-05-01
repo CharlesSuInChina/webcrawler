@@ -9,6 +9,7 @@ if __name__ == "__main__":
     demo2.get_info_by_regular(html)
     print __file__
     print ""
+    print "su hao"
 #    get_info_by_regular()
 
 
